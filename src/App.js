@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import Home from './components/Home';
 
 const App = () => {
   const [data, setData] = useState([]);
@@ -13,8 +14,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>React App</h1>
-      {/* Render data from the backend */}
+       <Home />
     </div>
   );
 };
